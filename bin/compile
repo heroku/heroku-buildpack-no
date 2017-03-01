@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# bin/compile <BUILD_DIR> <CACHE_DIR> <ENV_DIR>
+
+set -eu -o pipefail
+
+exit 1
