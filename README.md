@@ -15,4 +15,4 @@ attempt.
 
 Run the following command to overwrite existing buildpacks:
 
-    $ heroku buildpacks:set https://github.com/heroku/heroku-buildpack-no.git
+    $ heroku buildpacks:set heroku-community/no
