@@ -3,4 +3,7 @@
 
 set -eu -o pipefail
 
+echo "Builds are disabled on this app!" >&2
+echo "A common reason for this will be to enforce that deploys occur via another means (such as a pipeline promotion from staging)." >&2
+
 exit 1
