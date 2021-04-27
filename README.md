@@ -13,6 +13,7 @@ attempt.
 
 ## Usage
 
-Run the following command to overwrite existing buildpacks:
+Run the following commands to overwrite existing buildpacks:
 
+    $ heroku buildpacks:clear
     $ heroku buildpacks:set heroku-community/no
